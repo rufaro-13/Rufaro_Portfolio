@@ -4,6 +4,9 @@ function Home() {
   return (
     <div>
         <Hero/>
+        <section>
+            
+        </section>
     </div>
   )
 }

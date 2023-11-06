@@ -16,8 +16,8 @@ export default function NavbarWithCTAButton() {
           className="mr-3 h-12 sm:h-20"
           src={logo}
         />
-        <span className="self-center whitespace-nowrap text-emerald-800 text-xl font-bold dark:text-white">
-          Continued Health Care Limited
+        <span className="self-center whitespace-nowrap text-white text-xl font-bold dark:text-white">
+          Portfolio
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
@@ -29,15 +29,15 @@ export default function NavbarWithCTAButton() {
           active
           to="/"
         >
-          <p className='text-emerald-800 font-bold md:text-lg'>
+          <p className='text-white font-bold md:text-lg'>
             Home
           </p>
         </Link>
-        <Link to="/about" className='text-emerald-800 font-bold md:text-lg'>
-          About
+        <Link to="/works" className='text-white font-bold md:text-lg'>
+          Works
         </Link>
-        <Link to="/services" className='text-emerald-800 font-bold md:text-lg'>
-          Services
+        <Link to="/cv" className='text-emerald-800 font-bold md:text-lg'>
+          CV
         </Link>
         
         <Link to="/contact" className='text-emerald-800 font-bold md:text-lg'>
