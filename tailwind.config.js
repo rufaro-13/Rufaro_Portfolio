@@ -3,7 +3,8 @@ module.exports = {
   darkMode: 'class',
   content: ['./src/**/*.{html,js,jsx,ts,tsx}',
   'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
-  "./node_modules/flowbite/**/*.js"],
+  'node_modules/flowbite-react/lib/esm/**/*.js',
+  './node_modules/flowbite/**/*.js'],
   
 
   theme: {
@@ -19,6 +20,7 @@ module.exports = {
       },
     },
   },
-  plugins: [ require('flowbite/plugin')],
+  plugins: [ require('flowbite/plugin')]
+  
 }
 
