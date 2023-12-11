@@ -23,7 +23,75 @@ import drawer from '../images/drawer.jpg'
 function Works() {
   return (
     <div>
-      <section className="bg-cover bg-center bg-no-repeat h-screen bg-gray-400 bg-blend-multiply pt-1">
+
+<section className="bg-cover bg-center bg-no-repeat  bg-gray-400 bg-blend-multiply pt-12">
+
+<div class="mx-2 md:mx-8 w-fit">
+    <p className='text-bluetheme text-2xl font-bold mx-1'>Welcome to my work page</p>
+
+    <p className='text-bluetheme text-base  mx-1'>From time to time, I have been creating websites and in each project 
+    I have learnt a new language or skill. I believe with time i will get better and better. Below are the logos and links to 
+    some of the websites that I have developed
+    </p>
+
+</div>
+
+
+<div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-4">
+          <div className='col-span-1'><a href="https://ortuspecialisedhome.com"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
+              <div><img src={ortu}className="h-16 lg:h-28 md:h-24 mr-3" alt="Ortu Logo" /></div>
+              <div class="bg-blue-700 rounded-lg ml-4 w-fit">
+                <p className='text-white font-bold mx-1'>Visit</p>
+              </div>
+
+          </a></div>
+
+          <a href="https://veemuhealthcare.co.uk/"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
+              <img src={veemu}className="md:h-12 lg:h-32 h-9 mr-3" alt="Veemu Logo" /> 
+
+              <div class="bg-blue-700 rounded-lg ml-4 w-fit">
+                <p className='text-white font-bold mx-1'>Visit</p>
+              </div>    
+          </a>
+
+          <a href="https://continuedhealthcare.com" target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
+              <img src={continued}className="md:h-12 lg:h-32 h-9 mr-3" alt="Continued Health Care Logo" />
+
+              <div class="bg-blue-700 rounded-lg ml-4 w-fit">
+                <p className='text-white font-bold mx-1'>Visit</p>
+              </div>   
+          </a>
+
+          <a href="https://www.gghealthsolutions01.com/" target='blank'rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 items-center mb-4 sm:mb-0">
+              <img src={gg}className="md:h-12 lg:h-32 h-9 mr-3" alt="GG Healt Solutions Logo" /> 
+
+              <div class="bg-blue-700 rounded-lg ml-4 w-fit">
+                <p className='text-white font-bold mx-1'>Visit</p>
+              </div>   
+          </a>
+
+          <a href="https://www.stainmasterslimited.com/"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
+              <img src={stain}className="h-12 lg:h-32 mr-3" alt="Stain Masters Limited Logo" />  
+
+              <div class="bg-blue-700 rounded-lg ml-4 w-fit">
+                <p className='text-white font-bold mx-1'>Visit</p>
+              </div> 
+          </a>
+
+          <a href="https://kossiwa-store.000webhostapp.com/
+          "target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
+              <img src={kosiwa}className="h-12 lg:h-32 mr-3" alt="Kosiwa Store Logo" />
+
+              <div class="bg-blue-700 rounded-lg ml-4 w-fit">
+                <p className='text-white font-bold mx-1'>Visit</p>
+              </div>   
+          </a>
+
+      </div>
+
+</section>
+
+      <section className="bg-cover bg-center bg-no-repeat  bg-gray-400 bg-blend-multiply pt-10">
 
      
       <div className=" relative flex h-screen  mx-10 ">
@@ -76,37 +144,7 @@ function Works() {
     </section>
 
 
-    <section className="bg-cover bg-center bg-no-repeat  bg-gray-400 bg-blend-multiply pt-12">
-
-      <div className="sm:flex sm:items-center sm:justify-between pt-4">
-                <a href="https://ortuspecialisedhome.com"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 flex items-center mb-4 sm:mb-0">
-                    <img src={ortu}className="h-16 lg:h-28 md:h-24 mr-3" alt="Ortu Logo" />
-                </a>
-
-                <a href="https://veemuhealthcare.co.uk/"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 flex items-center mb-4 sm:mb-0">
-                    <img src={veemu}className="md:h-12 lg:h-32 h-9 mr-3" alt="Veemu Logo" />     
-                </a>
-
-                <a href="https://continuedhealthcare.com" target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 flex items-center mb-4 sm:mb-0">
-                    <img src={continued}className="md:h-12 lg:h-32 h-9 mr-3" alt="Continued Health Care Logo" />   
-                </a>
-
-                <a href="https://www.gghealthsolutions01.com/" target='blank'rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 flex items-center mb-4 sm:mb-0">
-                    <img src={gg}className="md:h-12 lg:h-32 h-9 mr-3" alt="GG Healt Solutions Logo" />    
-                </a>
-
-                <a href="https://www.satinmasterslimited.com/"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 flex items-center mb-4 sm:mb-0">
-                    <img src={stain}className="h-12 lg:h-32 mr-3" alt="Stain Masters Limited Logo" />   
-                </a>
-
-                <a href="https://kossiwa-store.000webhostapp.com/
-                "target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100 flex items-center mb-4 sm:mb-0">
-                    <img src={kosiwa}className="h-12 lg:h-32 mr-3" alt="Kosiwa Store Logo" />   
-                </a>
-
-            </div>
-
-      </section>
+   
     </div>
   )
 }
