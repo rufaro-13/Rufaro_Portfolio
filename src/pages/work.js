@@ -1,9 +1,12 @@
 import React from 'react'
 import ortu from '../images/ortu.png'
 import veemu from '../images/veemu.png'
+import veemu1 from '../images/vee.jpg'
 import continued from '../images/cont.png'
+import cont from '../images/contin.jpg'
 import gg from '../images/gg.png'
 import stain from '../images/stain.png'
+import stain1 from '../images/masters.jpg'
 /* import kosiwa from '../images/new kosiwalogo.jpeg' */
 function work() {
   return (
@@ -14,48 +17,97 @@ function work() {
     <p className='text-bluetheme text-2xl font-bold mx-1'>Welcome to my work page</p>
 
     <p className='text-bluetheme text-base  mx-1'>From time to time, I have been creating websites and in each project 
-    I have learnt a new language or skill. I believe with time i will get better and better. Below are the logos and links to 
-    some of the websites that I have developed
+    I have learnt a new language or skill. I believe with time I will get better and better. Below are some of my works.
     </p>
 
 </div>
 
-<div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-4 px-5">
+    <div className='pt-8 px-5 items-center justify-center'>
+        <p className='text-bluetheme text-2xl font-bold mx-1'>
+            <a href="https://ortuspecialisedhome.com" target='blank' rel="noreferrer"className='font-bold underline'>Ortu Specialised Home</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
+             <a href="https://ortuspecialisedhome.com" target='blank' rel="noreferrer" className='font-bold underline'>visit</a></span>
 
-    <div>
-        <img src={ortu}className="rounded-lg border-solid border-4 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+        </p>
+    </div>
+<div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-8 px-5">
+    
+    <div className=' items-center justify-center'>
+        <img src={ortu}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
     </div>
 
 </div>
 
-<div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-4 px-5">
+<div className='pt-8 px-5 items-center justify-center'>
+        <p className='text-bluetheme text-2xl font-bold mx-1'>
+            <a href="https://www.stainmasterslimited.com/" target='blank' rel="noreferrer"className='font-bold underline'>StainMsters Limited</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for cleaning services.  
+             <a href="https://www.stainmasterslimited.com/" target='blank' rel="noreferrer" className='font-bold underline'>visit</a></span>
+
+        </p>
+    </div>
+
+<div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-8 px-5">
 
     <div>
-        <img src={stain}className="rounded-lg border-solid border-4 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+        <img src={stain}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+    </div>
+    <div>
+        <img src={stain1}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"300px",height:"488px"}} alt="Ortu Logo" />
     </div>
 
 </div>
 
+
+<div className='pt-8 px-5 items-center justify-center'>
+        <p className='text-bluetheme text-2xl font-bold mx-1'>
+            <a href="https://veemuhealthcare.co.uk/" target='blank' rel="noreferrer"className='font-bold underline'>VEEMUHealthCare</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
+             <a href="https://veemuhealthcare.co.uk/" target='blank' rel="noreferrer" className='font-bold underline'>visit</a></span>
+
+        </p>
+    </div>
+
 <div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-4 px-5">
 
     <div>
-        <img src={veemu}className="rounded-lg border-solid border-4 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+        <img src={veemu}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+    </div>
+    <div>
+        <img src={veemu1}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"300px",height:"488px"}} alt="Ortu Logo" />
     </div>
 
 </div>
 
+
+<div className='pt-8 px-5 items-center justify-center'>
+        <p className='text-bluetheme text-2xl font-bold mx-1'>
+            <a href="https://continuedhealthcare.com" target='blank' rel="noreferrer"className='font-bold underline'>VEEMUHealthCare</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
+             <a href="https://continuedhealthcare.com" target='blank' rel="noreferrer" className='font-bold underline'>visit</a></span>
+
+        </p>
+    </div>
+
 <div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-4 px-5">
 
     <div>
-        <img src={continued}className="rounded-lg border-solid border-4 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+        <img src={continued}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+    </div>
+    <div>
+        <img src={cont}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"300px",height:"488px"}} alt="Ortu Logo" />
     </div>
 
 </div>
 
+
+<div className='pt-8 px-5 items-center justify-center'>
+        <p className='text-bluetheme text-2xl font-bold mx-1'>
+            <a href="https://www.gghealthsolutions01.com/" target='blank' rel="noreferrer"className='font-bold underline'>VEEMUHealthCare</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
+             <a href="https://www.gghealthsolutions01.com/" target='blank' rel="noreferrer" className='font-bold underline'>visit</a></span>
+
+        </p>
+    </div>
 <div className="md:flex grid lg:grid-cols-6 sm:items-center sm:justify-between pt-4 px-5">
 
     <div>
-        <img src={gg}className="rounded-lg border-solid border-4 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
+        <img src={gg}className="rounded-3xl border-solid border-8 border-black  mx-5"style={{width:"889px",height:"488px"}} alt="Ortu Logo" />
     </div>
 
 </div>
