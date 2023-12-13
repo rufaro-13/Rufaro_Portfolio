@@ -17,6 +17,55 @@ code {
 
 }
 
- @tailwind base;
+.workimage {
+  width:889px;
+  height:488px
+  }
+
+  .workimage1{
+    width:265px;
+    height:450px
+  }
+  .web{
+    position: absolute;
+    z-index: 1;
+    
+  }
+
+  .phone{
+    position: relative;
+    z-index: 9;
+    margin-left: -50px;
+    top: 70px;
+    left:-60px;
+  }
+
+@media screen  and (max-width : 768px)
+  {
+    .workimage {
+      max-width: 90%;
+      height: auto
+      }
+
+      .workimage1 {
+        max-width: 100%;
+        height: auto
+      }
+
+      .web {
+        position: absolute;
+        z-index: 1;
+       
+      }
+    
+      .phone{
+        position: relative;
+        z-index: 9;
+        top: 30px;
+        left: 2px;
+      }
+  }
+
+@tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,0 +1,51 @@
+.workimages {
+    width:889px;
+    height:488px
+    }
+  
+    .workimage1{
+      width:265px;
+      height:450px
+    }
+    .web{
+      position: relative;
+      z-index: 1;
+      
+    }
+  
+    .phone{
+      position: relative;
+      z-index: 9;
+      margin-left: 200px;
+      top: 50px;
+      left: 600px;
+    }
+  
+  @media screen  and (max-width : 768px)
+    {
+      .workimages {
+        max-width:90%;
+        height:auto
+        }
+  
+        .workimage1{
+          max-width:100%;
+          height:auto
+        }
+  
+        .web{
+          position: absolute;
+          z-index: 1;
+         
+        }
+      
+        .phone{
+          max-width:100%;
+          height:auto;
+          position: relative;
+          z-index: 9;
+          top: 30px;
+          left: 2px;
+        }
+    }
+  
