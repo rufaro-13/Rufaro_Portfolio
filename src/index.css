@@ -35,9 +35,9 @@ code {
   .phone{
     position: relative;
     z-index: 9;
-    margin-left: -50px;
+    margin-left: 50px;
     top: 70px;
-    left:-60px;
+    left:800px;
   }
 
 @media screen  and (max-width : 768px)
@@ -48,7 +48,7 @@ code {
       }
 
       .workimage1 {
-        max-width: 100%;
+        max-width: 30%;
         height: auto
       }
 
@@ -62,7 +62,7 @@ code {
         position: relative;
         z-index: 9;
         top: 30px;
-        left: 2px;
+        left: 160px;
       }
   }
 
