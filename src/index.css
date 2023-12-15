@@ -30,7 +30,23 @@ code {
     position: absolute;
     z-index: 1;
     
+    
   }
+
+  .web:hover{
+    position: absolute;
+    z-index: 99;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+    transform: translateX(1.5rem);
+    transform: -(translateY(0.25rem));
+    transform: scale(1.1);
+    
+    
+  }
+
+  
 
   .phone{
     position: relative;
@@ -40,6 +56,18 @@ code {
     left:800px;
   }
 
+
+  .phone:hover{
+    
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+    transition-delay: 150ms;
+    transform: translateX(1.5rem);
+    transform: -(translateY(0.25rem));
+    transform: scale(1.1);
+    
+    
+  }
 @media screen  and (max-width : 768px)
   {
     .workimage {

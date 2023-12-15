@@ -17,7 +17,7 @@ export default function NavbarWithCTAButton() {
           src={logo}
         />
         <span className="self-center whitespace-nowrap text-white text-xl font-bold dark:text-white">
-          Portfolio
+          Rufaro Chiuta
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-white">
@@ -36,13 +36,11 @@ export default function NavbarWithCTAButton() {
         <Link to="/works" className='text-white font-bold md:text-lg'>
           Works
         </Link>
-        <Link to="/cv" className='text-emerald-800 font-bold md:text-lg'>
-          CV
+        <Link to="/about" className='text-white font-bold md:text-lg'>
+          About
         </Link>
         
-        <Link to="/contact" className='text-emerald-800 font-bold md:text-lg'>
-          Contact
-        </Link>
+       
       </Navbar.Collapse>
     </Navbar>
   )
