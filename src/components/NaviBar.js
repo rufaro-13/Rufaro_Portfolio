@@ -2,7 +2,7 @@
 
 import {  Navbar } from 'flowbite-react';
 import { Link } from "react-router-dom";
-import logo from '../logo.svg'
+//import logo from '../logo.svg'
 export default function NavbarWithCTAButton() {
   return (
     <Navbar
@@ -10,12 +10,12 @@ export default function NavbarWithCTAButton() {
       
       className="bg-bluetheme"
     >
-      <Navbar.Brand href="https://flowbite-react.com">
-        <img
-          alt="Flowbite React Logo"
+      <Navbar.Brand >
+       {/*  <img
+          alt=" "
           className="mr-3 h-12 sm:h-20"
           src={logo}
-        />
+        /> */}
         <span className="self-center whitespace-nowrap text-white text-xl font-bold dark:text-white">
           Rufaro Chiuta
         </span>
