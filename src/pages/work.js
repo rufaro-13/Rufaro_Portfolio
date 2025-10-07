@@ -4,7 +4,7 @@ import veemu from '../images/veemu.png'
 import veemu1 from '../images/vee.jpg'
 import continued from '../images/cont.png'
 import cont from '../images/contin.jpg'
-import gg from '../images/gg.png'
+//import gg from '../images/gg.png'
 import stain from '../images/stain.png'
 import stain1 from '../images/masters.jpg'
 /* import kosiwa from '../images/new kosiwalogo.jpeg' */
@@ -44,8 +44,8 @@ function work() {
             <section className=" pt-12 md:pl-5">
                 <div className='pt-20 px-5 items-center justify-center'>
                         <p className='text-bluetheme text-xl md:text-2xl font-bold mx-1'>
-                            <a href="https://www.stainmasterslimited.com/" target='blank' rel="noreferrer"className='font-bold underline'>StainMasters Limited</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for cleaning services.  
-                            <a href="https://www.stainmasterslimited.com/" target='blank' rel="noreferrer" className='font-bold underline whitespace-normal'> visit</a></span>
+                            <a href="https://cleaning-webapp.pages.dev/" target='blank' rel="noreferrer"className='font-bold underline'>StainMasters Limited</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for cleaning services.  
+                            <a href="https://cleaning-webapp.pages.dev/" target='blank' rel="noreferrer" className='font-bold underline whitespace-normal'> visit</a></span>
 
                         </p>
                 </div>
@@ -101,7 +101,7 @@ function work() {
 
                 </div>
             </section>
-            <section className=" pt-12 md:pl-5">
+           {/*  <section className=" pt-12 md:pl-5">
                 <div className='pt-20 px-5 items-center justify-center'>
                         <p className='text-bluetheme  text-xl md:text-2xl font-bold mx-1'>
                             <a href="https://www.gghealthsolutions01.com/" target='blank' rel="noreferrer"className='font-bold underline'>GGHealthSolutions</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
@@ -119,9 +119,9 @@ function work() {
                     </div>
 
                 </div>
-            </section>
+            </section>*/}
 
-        </section>
+        </section> 
     </div>
   )
 }

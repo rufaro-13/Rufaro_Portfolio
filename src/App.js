@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Works from './pages/work';
 import About from './pages/About'
 import ScrollToTop from './pages/ScrollToTop';
+import Resume from './pages/Resume';
 function App() {
   return (
     <BrowserRouter basename='/'>
@@ -14,6 +15,7 @@ function App() {
       <Route forceRefresh={true} index element= {<Home/>}></Route>
       <Route forceRefresh={true} path='/works' element= {<Works/>}></Route>
       <Route forceRefresh={true} path='/about' element= {<About/>}></Route>
+      <Route forceRefresh={true} path='/resume' element= {<Resume/>}></Route>
          {/*<Route  path='/contact' element= {<Contact/>}></Route>
         <Route  path='/about' element= {<About/>}></Route> */}
         

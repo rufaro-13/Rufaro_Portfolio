@@ -40,7 +40,9 @@ export default function NavbarWithCTAButton() {
           About
         </Link>
         
-       
+        <Link to="/resume" className='text-white font-bold md:text-lg'>
+          Resume
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   )
