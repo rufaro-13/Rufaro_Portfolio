@@ -4,10 +4,10 @@ import veemu from '../images/veemu.png'
 import veemu1 from '../images/vee.jpg'
 import continued from '../images/cont.png'
 import cont from '../images/contin.jpg'
-//import gg from '../images/gg.png'
+import gg from '../images/Screenshot 2025-12-14 035813.png'
 import stain from '../images/stain.png'
 import stain1 from '../images/masters.jpg'
-/* import kosiwa from '../images/new kosiwalogo.jpeg' */
+import kosiwa from '../images/Screenshot 2025-12-14 035904.png' 
 function work() {
   return (
     <div>
@@ -101,25 +101,25 @@ function work() {
 
                 </div>
             </section>
-           {/*  <section className=" pt-12 md:pl-5">
+             <section className=" pt-12 md:pl-5">
                 <div className='pt-20 px-5 items-center justify-center'>
                         <p className='text-bluetheme  text-xl md:text-2xl font-bold mx-1'>
-                            <a href="https://www.gghealthsolutions01.com/" target='blank' rel="noreferrer"className='font-bold underline'>GGHealthSolutions</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
-                            <a href="https://www.gghealthsolutions01.com/" target='blank' rel="noreferrer" className='whitespace-normal font-bold underline'> visit</a></span>
+                            <a href="https://aligncarecollective.co.uk/" target='blank' rel="noreferrer"className='font-bold underline'>AlignCare Collective</a> <span className='text-bluetheme font-normal text-base mx-1'> a website for health care services.  
+                            <a href="https://aligncarecollective.co.uk/" target='blank' rel="noreferrer" className='whitespace-normal font-bold underline'> visit</a></span>
 
                         </p>
                     </div>
-                <div className="md:flex grid lg:grid-col-1 sm:items-center sm:justify-between pt-12 md:px-8 pl-2">
+                <div className="md:flex grid lg:grid-col-1 sm:items-center sm:justify-between pt-12 md:px-8 pl-2 pb-12">
 
                     <div className='web items-center justify-center'>
                         <img src={gg}className="workimage rounded-3xl border-solid md:border-8 border-4 border-black md:mx-5 mx-2" alt="Ortu Logo" />
                     </div>
-                    <div className='phone'>
-                        <img src={cont}className="workimage1 rounded-3xl border-solid md:border-8 border-4 border-black ml-2 md:mx-5" alt="Ortu Logo" />
+                    <div className='phone '>
+                        <img src={kosiwa}className="workimage1 rounded-3xl border-solid md:border-8 border-4 border-black ml-2 md:mx-5" alt="Ortu Logo" />
                     </div>
 
                 </div>
-            </section>*/}
+            </section>
 
         </section> 
     </div>

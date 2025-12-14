@@ -8,7 +8,7 @@ export default function NavbarWithCTAButton() {
     <Navbar
       fluid
       
-      className="bg-bluetheme"
+      className="bg-darkpurple"
     >
       <Navbar.Brand >
        {/*  <img
@@ -16,11 +16,11 @@ export default function NavbarWithCTAButton() {
           className="mr-3 h-12 sm:h-20"
           src={logo}
         /> */}
-        <span className="self-center whitespace-nowrap text-white text-xl font-bold dark:text-white">
+        <span className="self-center whitespace-nowrap text-yello text-xl font-bold dark:text-yello">
           Rufaro Chiuta
         </span>
       </Navbar.Brand>
-      <div className="flex md:order-2 text-white">
+      <div className="flex md:order-2 text-yello">
         
         <Navbar.Toggle />
       </div>
@@ -29,18 +29,18 @@ export default function NavbarWithCTAButton() {
           active
           to="/"
         >
-          <p className='text-white font-bold md:text-lg'>
+          <p className='text-yello font-bold md:text-lg'>
             Home
           </p>
         </Link>
-        <Link to="/works" className='text-white font-bold md:text-lg'>
+        <Link to="/works" className='text-yello font-bold md:text-lg'>
           Works
         </Link>
-        <Link to="/about" className='text-white font-bold md:text-lg'>
+        <Link to="/about" className='text-yello font-bold md:text-lg'>
           About
         </Link>
         
-        <Link to="/resume" className='text-white font-bold md:text-lg'>
+        <Link to="/resume" className='text-yello font-bold md:text-lg'>
           Resume
         </Link>
       </Navbar.Collapse>

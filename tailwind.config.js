@@ -12,7 +12,7 @@ module.exports = {
 
       colors: {
         'bluetheme':'#01013b',
-        'darkpurple':'#2E073F',
+        'darkpurple':'#1a1a1a',
         'lightpurple':'#EBD3F8',
         'yello':'#FFE100',
 

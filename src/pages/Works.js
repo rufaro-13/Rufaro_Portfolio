@@ -1,8 +1,6 @@
 'use client';
-
-import { Carousel } from 'flowbite-react';
 import React from 'react'
-
+import { Carousel } from 'flowbite-react';
 import ortu from '../images/ortu_png.png'
 import veemu from '../images/veemu_png.png'
 import continued from '../images/CHC_png.png'
@@ -70,7 +68,7 @@ function Works() {
               </div>   
           </a>
 
-          <a href="https://www.stainmasterslimited.com/"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
+          <a href="https://cleaning-webapp.pages.dev/"target='blank' rel="noreferrer" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-fuchsia-100  items-center mb-4 sm:mb-0">
               <img src={stain}className="h-12 lg:h-32 mr-3" alt="Stain Masters Limited Logo" />  
 
               <div class="bg-blue-700 rounded-lg ml-4 w-fit">
